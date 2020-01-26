@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    opacity: 0.9%;
+    padding-top: 10px;
+
+}
+.pageheader {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background: black;
+    height: 69px;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+}
+
+#main-menu a {
+    padding: 30px;
+    color: #fff;
+    text-decoration: underline;
+    float: right;
+}
+
+.main {
+  position: relative;
+  z-index: -1;
+
+}
+.text-block {
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 50%;
+    width: 100%;
+}
+#TOM {
+    text-align: center;
+    color: white;
+}
+
+.teas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.column img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.column-2 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
