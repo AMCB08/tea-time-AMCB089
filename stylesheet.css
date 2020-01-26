@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    opacity: 0.9%;
     padding-top: 10px;
     font-family: Helvetica;
 
@@ -31,7 +30,7 @@ body {
     float: right;
 }
 
-.main {
+#main {
   position: relative;
   z-index: -1;
 
@@ -88,7 +87,7 @@ body {
     margin: 10px;
 }
 
-.locations {
+#locations {
     position: relative;
     text-align: center;
     color: white;
