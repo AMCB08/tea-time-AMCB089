@@ -84,3 +84,50 @@ body {
     padding: 20px;
     margin: 10px;
 }
+
+.locations {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 40px;
+}
+.content {
+  position: absolute;
+  align-items: center;
+  top: 40px;
+  color: white;
+}
+
+.city-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.city-column {
+    display: block;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downtown-column {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+
+}
+
+.east-column {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.oakdale-column {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    
+}
