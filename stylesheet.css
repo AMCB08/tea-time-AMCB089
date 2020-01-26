@@ -111,6 +111,7 @@ body {
 
 .downtown-column {
     background-color: black;
+    opacity: 1;
     height: 200px;
     width: 300px;
     margin: 40px 30px 30px 100px;
@@ -129,4 +130,14 @@ body {
     height: 200px;
     width: 300px;
     margin: 40px 30px 30px 100px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.copyright {
+    text-align: left;
+    color: white;
 }
